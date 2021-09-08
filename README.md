@@ -9,4 +9,4 @@ https://developer.roblox.com/en-us/articles/gui-rich-text
 do not gonna work in low level scripts, so you cant use it in your own game :(
 
 # updates
-* fixed the inf loop, that was consuming memory
+* fixed the inf loop, that was using big memory
