@@ -12,9 +12,7 @@ spawn(function() -- console rich text enabler
             v.msg.RichText = true
         end)
     end
-    
     local a = game:WaitForChild('CoreGui')
-    
     while wait() do
         a:WaitForChild('DevConsoleMaster'):WaitForChild('DevConsoleWindow')
         local a = a.DevConsoleMaster.DevConsoleWindow:WaitForChild('DevConsoleUI')
