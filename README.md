@@ -5,3 +5,5 @@ enables you to use custom text in the console
 
 rich text guide:
 https://developer.roblox.com/en-us/articles/gui-rich-text
+
+do not gonna work in low level scripts, so you cant use it in your own game :(
