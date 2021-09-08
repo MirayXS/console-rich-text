@@ -13,12 +13,13 @@ spawn(function() -- console rich text enabler
         end)
     end
     local a = game:WaitForChild('CoreGui')
-    while wait() do
+    while true do
         a:WaitForChild('DevConsoleMaster'):WaitForChild('DevConsoleWindow')
         local a = a.DevConsoleMaster.DevConsoleWindow:WaitForChild('DevConsoleUI')
         
         a:WaitForChild('MainView')
         a.MainView:WaitForChild('ClientLog').ChildAdded:Connect(f)
         table.foreach(a.MainView.ClientLog:GetChildren(),f)
+        repeat wait() until not a
     end
 end)
