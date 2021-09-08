@@ -10,3 +10,4 @@ do not gonna work in low level scripts, so you cant use it in your own game :(
 
 # updates
 * fixed the inf loop, that was using big memory
+* now it automaticly restarts when you close the console
